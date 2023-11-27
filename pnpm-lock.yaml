@@ -22,7 +22,7 @@ importers:
       '@floating-ui/dom': ^1.0.1
       '@pnpm/find-workspace-packages': ^4.0.16
       '@pnpm/logger': ^4.0.0
-      '@pnpm/types': ^8.4.0
+      '@pnpm/types': ^9.4.0
       '@popperjs/core': npm:@sxzz/popperjs-es@^2.11.7
       '@types/fs-extra': ^9.0.13
       '@types/gulp': ^4.0.9
@@ -107,7 +107,7 @@ importers:
       '@esbuild-kit/cjs-loader': 2.2.1
       '@pnpm/find-workspace-packages': 4.0.16_@pnpm+logger@4.0.0
       '@pnpm/logger': 4.0.0
-      '@pnpm/types': 8.4.0
+      '@pnpm/types': 9.4.0
       '@types/fs-extra': 9.0.13
       '@types/gulp': 4.0.9
       '@types/jsdom': 16.2.14
@@ -234,7 +234,7 @@ importers:
       '@esbuild-kit/cjs-loader': ^2.2.1
       '@pnpm/find-workspace-packages': ^4.0.16
       '@pnpm/logger': ^4.0.0
-      '@pnpm/types': ^8.4.0
+      '@pnpm/types': ^9.4.0
       '@rollup/plugin-commonjs': ^22.0.1
       '@rollup/plugin-node-resolve': ^13.3.0
       '@vitejs/plugin-vue': ^2.3.3
@@ -275,7 +275,7 @@ importers:
       unplugin-vue-macros: 0.11.2_z4bu4wu5k7xudjmnmksyrigboq
     devDependencies:
       '@esbuild-kit/cjs-loader': 2.2.1
-      '@pnpm/types': 8.4.0
+      '@pnpm/types': 9.4.0
       unbuild: 0.7.4
       vue: 3.2.37
 
@@ -2756,6 +2756,11 @@ packages:
   /@pnpm/types/8.4.0:
     resolution: {integrity: sha512-sq/UdSq/jWCpYglw9SFmvR8qzUEi0p2oZIO0AHjkWWQg4Qrolf6DgD0WWmLiEP2WxHjbYeyD3ZzWzQor1+6cvw==}
     engines: {node: '>=14.6'}
+
+  /@pnpm/types/9.4.0:
+    resolution: {integrity: sha512-IRDuIuNobLRQe0UyY2gbrrTzYS46tTNvOEfL6fOf0Qa8NyxUzeXz946v7fQuQE3LSBf8ENBC5SXhRmDl+mBEqA==}
+    engines: {node: '>=16.14'}
+    dev: true
 
   /@pnpm/write-project-manifest/3.0.5:
     resolution: {integrity: sha512-d56Lz1bIGSvaGRFG9rNliOayq8dLyLiexRaFX3KVO9zCziLJ7i2SNkYlw3bUhDCRYKEDcWvr34zS7NwKRlkBgQ==}
